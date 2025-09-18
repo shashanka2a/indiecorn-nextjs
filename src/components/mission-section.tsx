@@ -18,18 +18,18 @@ export function MissionSection() {
             <div>
               <div className="space-y-6 text-lg leading-relaxed">
                 <p className="text-2xl font-mono text-green-600">
-                  &gt; We believe in building without permission.
+                  &gt; I believe in building without permission.
                 </p>
                 <p>
-                  In a world of gatekeepers and venture capital, we choose the indie path. 
-                  We build products that matter, solve real problems, and create value 
+                  In a world of gatekeepers and venture capital, I choose the indie path. 
+                  I build products that matter, solve real problems, and create value 
                   without compromise.
                 </p>
                 
                 {/* AI empowerment note */}
                 <div className="bg-gray-50 border-l-4 border-green-500 p-4 rounded-r-lg">
                   <p className="text-gray-600 mb-2">
-                    We have AI now — one builder can do the work of ten.
+                    I have AI now — one builder can do the work of ten.
                   </p>
                   <p className="text-xs font-mono text-green-600 italic">
                     (Think Loki giving Hulk that little… push.)
@@ -38,7 +38,7 @@ export function MissionSection() {
                 
                 <p>
                   Every unicorn started as an idea. Every empire began with a single line of code. 
-                  We&apos;re not just building products—we&apos;re building the future, one commit at a time.
+                  I&apos;m not just building products—I&apos;m building the future, one commit at a time.
                 </p>
                 <p className="font-mono text-green-600 border-l-4 border-green-500 pl-4">
                   Independence. Innovation. Impact.

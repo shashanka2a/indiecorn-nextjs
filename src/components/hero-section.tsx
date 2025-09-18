@@ -31,7 +31,7 @@ export function HeroSection() {
         
         {/* Tony Stark subline */}
         <p className="font-mono text-sm md:text-base text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Tony Stark built his suit in a cave. I&apos;m building unicorns on a MacBook Pro 2022 — no team, no VC, just AI and focus.
+          Tony Stark built his suit in a cave. I&apos;m solo doing unicorns on a MacBook Pro 2022 — no team, no VC, just AI and focus.
         </p>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
