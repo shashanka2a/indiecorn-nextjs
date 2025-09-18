@@ -45,7 +45,7 @@ export function JournalSection() {
             The <span className="text-green-500">Journal</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Thoughts, lessons, and insights from the indie maker journey
+            Thoughts, lessons, and insights from the indie developer journey
           </p>
           <div className="w-24 h-1 bg-green-500 mx-auto mt-6"></div>
         </div>
