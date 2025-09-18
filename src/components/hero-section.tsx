@@ -35,7 +35,7 @@ export function HeroSection() {
         </p>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
-          Building the future, one indie project at a time. 
+          Trying to build the future, one indie project at a time. 
           <br />
           <span className="text-green-400 font-mono">🦄</span>
         </p>
