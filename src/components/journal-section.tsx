@@ -5,7 +5,7 @@ const journalEntries = [
   {
     title: "The Monopoly Exploitation Cycle: How Once-Innovative Companies Turn Against Their Users",
     excerpt: "Exploring how successful companies evolve from user-centric innovators to profit-maximizing monopolies that exploit their user base.",
-    date: "2024-12-01",
+    date: "2025-09-01",
     readTime: "8 min read",
     tags: ["Business Strategy", "Monopoly", "User Experience"],
     link: "https://medium.com/@jagannathamshashank/the-monopoly-exploitation-cycle-how-once-innovative-companies-turn-against-their-users-4550b07ebe5c"
@@ -13,7 +13,7 @@ const journalEntries = [
   {
     title: "Why the Student Commerce Problem Remains Unsolved",
     excerpt: "Analyzing the persistent challenges in student commerce and why existing solutions fail to address the core needs of campus communities.",
-    date: "2024-11-15",
+    date: "2025-08-25",
     readTime: "6 min read",
     tags: ["Student Commerce", "Problem Solving", "Campus Life"],
     link: "https://medium.com/@jagannathamshashank/why-the-student-commerce-problem-remains-unsolved-eba65c0bab78"
@@ -21,7 +21,7 @@ const journalEntries = [
   {
     title: "Why Campus Ride-Sharing Remains Broken",
     excerpt: "Deep dive into the fundamental issues plaguing campus transportation and why current ride-sharing models don't work for students.",
-    date: "2024-11-01",
+    date: "2025-08-15",
     readTime: "7 min read",
     tags: ["Transportation", "Campus Life", "Ride Sharing"],
     link: "https://medium.com/@jagannathamshashank/why-campus-ride-sharing-remains-broken-5f056ee084a6"
@@ -29,7 +29,7 @@ const journalEntries = [
   {
     title: "From Assignments to Vibe Coding: How AI Evolved and Redefined Industries",
     excerpt: "Tracing the evolution of AI from academic assignments to practical applications that are reshaping entire industries and workflows.",
-    date: "2024-10-15",
+    date: "2025-08-05",
     readTime: "9 min read",
     tags: ["Artificial Intelligence", "Industry Evolution", "Technology"],
     link: "https://medium.com/@jagannathamshashank/from-assignments-to-vibe-coding-how-ai-evolved-and-redefined-industries-7547a0e765c4"
