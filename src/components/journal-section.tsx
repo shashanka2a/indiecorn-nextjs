@@ -3,25 +3,36 @@ import { Calendar, Clock, ArrowRight, BookOpen } from "lucide-react";
 
 const journalEntries = [
   {
-    title: "Building in Public: Lessons from Month 1",
-    excerpt: "What I learned from shipping my first indie project and the community response that surprised me.",
-    date: "2024-03-15",
-    readTime: "5 min read",
-    tags: ["Building in Public", "Indie Hacking", "Lessons"]
-  },
-  {
-    title: "The Minimalist Tech Stack",
-    excerpt: "Why choosing fewer tools and sticking to the basics helped me ship faster and maintain better focus.",
-    date: "2024-03-10",
-    readTime: "3 min read",
-    tags: ["Tech Stack", "Minimalism", "Productivity"]
-  },
-  {
-    title: "From Idea to MVP in 30 Days",
-    excerpt: "A detailed breakdown of how I went from concept to live product in a month, including all the mistakes I made.",
-    date: "2024-03-05",
+    title: "The Monopoly Exploitation Cycle: How Once-Innovative Companies Turn Against Their Users",
+    excerpt: "Exploring how successful companies evolve from user-centric innovators to profit-maximizing monopolies that exploit their user base.",
+    date: "2024-12-01",
     readTime: "8 min read",
-    tags: ["MVP", "Product Development", "Timeline"]
+    tags: ["Business Strategy", "Monopoly", "User Experience"],
+    link: "https://medium.com/@jagannathamshashank/the-monopoly-exploitation-cycle-how-once-innovative-companies-turn-against-their-users-4550b07ebe5c"
+  },
+  {
+    title: "Why the Student Commerce Problem Remains Unsolved",
+    excerpt: "Analyzing the persistent challenges in student commerce and why existing solutions fail to address the core needs of campus communities.",
+    date: "2024-11-15",
+    readTime: "6 min read",
+    tags: ["Student Commerce", "Problem Solving", "Campus Life"],
+    link: "https://medium.com/@jagannathamshashank/why-the-student-commerce-problem-remains-unsolved-eba65c0bab78"
+  },
+  {
+    title: "Why Campus Ride-Sharing Remains Broken",
+    excerpt: "Deep dive into the fundamental issues plaguing campus transportation and why current ride-sharing models don't work for students.",
+    date: "2024-11-01",
+    readTime: "7 min read",
+    tags: ["Transportation", "Campus Life", "Ride Sharing"],
+    link: "https://medium.com/@jagannathamshashank/why-campus-ride-sharing-remains-broken-5f056ee084a6"
+  },
+  {
+    title: "From Assignments to Vibe Coding: How AI Evolved and Redefined Industries",
+    excerpt: "Tracing the evolution of AI from academic assignments to practical applications that are reshaping entire industries and workflows.",
+    date: "2024-10-15",
+    readTime: "9 min read",
+    tags: ["Artificial Intelligence", "Industry Evolution", "Technology"],
+    link: "https://medium.com/@jagannathamshashank/from-assignments-to-vibe-coding-how-ai-evolved-and-redefined-industries-7547a0e765c4"
   }
 ];
 
@@ -90,9 +101,12 @@ export function JournalSection() {
                   <Button 
                     variant="outline" 
                     className="border-green-500 text-green-600 hover:bg-green-500 hover:text-white"
+                    asChild
                   >
-                    Read More
-                    <ArrowRight className="ml-2 w-4 h-4" />
+                    <a href={entry.link} target="_blank" rel="noopener noreferrer">
+                      Read More
+                      <ArrowRight className="ml-2 w-4 h-4" />
+                    </a>
                   </Button>
                 </div>
               </div>

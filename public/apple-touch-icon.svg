@@ -1,0 +1,6 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="20" fill="#000000"/>
+  <path d="M45 67.5h90v11.25H45V67.5zm0 22.5h90v11.25H45V90zm0 22.5h67.5v11.25H45v-11.25z" fill="#22c55e"/>
+  <circle cx="135" cy="45" r="16.875" fill="#22c55e"/>
+  <text x="90" y="157.5" font-family="monospace" font-size="45" fill="#22c55e" text-anchor="middle">IC</text>
+</svg>

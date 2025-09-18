@@ -1,30 +1,37 @@
 import { Button } from "./ui/button";
-import { Twitter, Github, Linkedin, Mail, ExternalLink } from "lucide-react";
+import { Youtube, Instagram, Mail, ExternalLink } from "lucide-react";
+
+// Custom TikTok icon component
+const TikTokIcon = ({ className }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+  </svg>
+);
 
 const socialLinks = [
   {
-    name: "Twitter",
-    handle: "@indiecorn_xyz",
-    description: "Daily updates, thoughts, and indie maker tips",
-    icon: Twitter,
-    url: "https://twitter.com/indiecorn_xyz",
-    color: "hover:text-blue-400 hover:border-blue-400"
+    name: "YouTube",
+    handle: "@indiecorn.xyz",
+    description: "Tutorials, project walkthroughs, and indie maker content",
+    icon: Youtube,
+    url: "https://youtube.com/@indiecorn.xyz",
+    color: "hover:text-red-500 hover:border-red-500"
   },
   {
-    name: "GitHub",
-    handle: "@indiecorn",
-    description: "Open source projects and code experiments",
-    icon: Github,
-    url: "https://github.com/indiecorn",
-    color: "hover:text-gray-400 hover:border-gray-400"
+    name: "Instagram",
+    handle: "@indiecorn.xyz",
+    description: "Behind-the-scenes content and visual updates",
+    icon: Instagram,
+    url: "https://instagram.com/indiecorn.xyz",
+    color: "hover:text-pink-400 hover:border-pink-400"
   },
   {
-    name: "LinkedIn",
-    handle: "/in/indiecorn",
-    description: "Professional updates and industry insights",
-    icon: Linkedin,
-    url: "https://linkedin.com/in/indiecorn",
-    color: "hover:text-blue-600 hover:border-blue-600"
+    name: "TikTok",
+    handle: "@indiecorn.xyz",
+    description: "Quick tips, coding snippets, and viral tech content",
+    icon: TikTokIcon,
+    url: "https://tiktok.com/@indiecorn.xyz",
+    color: "hover:text-black hover:border-black"
   },
   {
     name: "Email",
@@ -104,8 +111,8 @@ export function FollowSection() {
                   size="lg"
                   className="border-green-400 text-green-400 hover:bg-green-400 hover:text-black font-mono"
                 >
-                  <Github className="mr-2 w-5 h-5" />
-                  Collaborate
+                  <Youtube className="mr-2 w-5 h-5" />
+                  Subscribe
                 </Button>
               </div>
             </div>

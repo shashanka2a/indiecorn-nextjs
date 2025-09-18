@@ -1,0 +1,26 @@
+{
+  "name": "IndieCorn - Building the Future, One Indie Project at a Time",
+  "short_name": "IndieCorn",
+  "description": "Indie maker building innovative solutions for campus life and startups",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#22c55e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["productivity", "business", "education"],
+  "lang": "en",
+  "dir": "ltr"
+}

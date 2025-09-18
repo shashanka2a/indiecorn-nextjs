@@ -3,35 +3,35 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    name: "Kampus",
+    name: "Kampus.fun",
     tagline: "Campus super-app",
     icon: "🏫",
-    description: "Community-driven learning platform connecting developers, designers, and entrepreneurs.",
+    description: "Your ultimate campus life platform. Connect, buy, sell, ride, and discover everything campus has to offer — all in one place.",
     tech: ["React", "Node.js", "PostgreSQL"],
     status: "Live",
-    link: "#",
+    link: "https://www.kampus.fun/",
     github: "#",
     color: "from-blue-500 to-purple-600"
   },
   {
-    name: "Markit",
+    name: "Markit.one",
     tagline: "Startup SaaS hub",
     icon: "⚡",
-    description: "AI-powered market research tool for indie makers and small businesses.",
+    description: "Simplify forms, QR codes, and hiring — all in one place. Essential tools built for startups to launch faster and scale smarter.",
     tech: ["Next.js", "OpenAI", "Stripe"],
-    status: "Beta",
-    link: "#",
+    status: "Live",
+    link: "https://www.markit.one/",
     github: "#",
     color: "from-green-500 to-teal-600"
   },
   {
-    name: "Layr",
-    tagline: "AI for founders",
+    name: "Layr.plus",
+    tagline: "Builder's toolkit",
     icon: "🤖",
-    description: "No-code visual design system builder for rapid prototyping and development.",
+    description: "All the layers you need to build. Everything you need to create, design, and deploy from concept to completion.",
     tech: ["Vue.js", "Canvas API", "Firebase"],
-    status: "Coming Soon",
-    link: "#",
+    status: "Live",
+    link: "https://www.layr.plus/",
     github: "#",
     color: "from-orange-500 to-red-600"
   }
@@ -104,17 +104,22 @@ export function ProjectsSection() {
                   <Button 
                     size="sm" 
                     className="bg-green-400 hover:bg-green-500 text-black flex-1"
-                    disabled={project.status === 'Coming Soon'}
+                    asChild
                   >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    View Project
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Project
+                    </a>
                   </Button>
                   <Button 
                     variant="outline" 
                     size="sm" 
                     className="border-gray-600 text-gray-300 hover:bg-gray-800"
+                    asChild
                   >
-                    <Github className="w-4 h-4" />
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="w-4 h-4" />
+                    </a>
                   </Button>
                 </div>
               </div>
