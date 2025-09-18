@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
-import { Terminal, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import { Logo } from "./logo";
 
 const navItems = [
   { name: "Mission", href: "#mission" },
@@ -39,10 +40,9 @@ export function Navigation() {
           {/* Logo */}
           <button 
             onClick={scrollToTop}
-            className="flex items-center gap-2 text-white hover:text-green-400 transition-colors group"
+            className="hover:opacity-80 transition-opacity group"
           >
-            <Terminal className="w-6 h-6 group-hover:rotate-12 transition-transform" />
-            <span className="font-mono font-bold text-lg">IndieCorn.xyz</span>
+            <Logo size="md" className="group-hover:scale-105 transition-transform" />
           </button>
           
           {/* Desktop Navigation */}
