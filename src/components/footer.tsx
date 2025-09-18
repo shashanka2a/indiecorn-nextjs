@@ -67,7 +67,7 @@ export function Footer() {
             </div>
             
             <div className="text-sm text-gray-500 mt-4 md:mt-0">
-              <span className="font-mono">© 2024 IndieCorn.xyz</span>
+              <span className="font-mono">© 2025 IndieCorn.xyz</span>
             </div>
           </div>
         </div>
