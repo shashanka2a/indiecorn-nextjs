@@ -29,7 +29,7 @@ export function MissionSection() {
                 <div className="space-y-6">
                   <div className="text-center">
                     <p className="text-white text-lg font-bold mb-2">
-                      "I have VCs, MBAs, big teams."
+                      &quot;I have VCs, MBAs, big teams.&quot;
                     </p>
                     <p className="text-gray-400 text-sm font-mono">
                       – The Old Playbook
@@ -38,7 +38,7 @@ export function MissionSection() {
                   
                   <div className="text-center">
                     <p className="text-green-400 text-xl font-bold mb-2">
-                      "We have AI."
+                      &quot;We have AI.&quot;
                     </p>
                     <p className="text-green-500 text-sm font-mono">
                       – IndieCorn
