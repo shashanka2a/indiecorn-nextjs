@@ -51,7 +51,7 @@ export function JournalSection() {
         </div>
         
         <div className="max-w-4xl mx-auto">
-          {journalEntries.map((entry) => (
+          {journalEntries.slice(0, 2).map((entry) => (
             <article 
               key={entry.title}
               className="border-b border-gray-200 pb-8 mb-8 last:border-b-0 hover:bg-gray-50 transition-colors p-6 rounded-lg group"
@@ -60,7 +60,14 @@ export function JournalSection() {
                 {/* Content */}
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3 group-hover:text-green-600 transition-colors">
-                    {entry.title}
+                    <a 
+                      href={entry.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      {entry.title}
+                    </a>
                   </h3>
                   
                   <p className="text-gray-600 mb-4 leading-relaxed">
@@ -112,14 +119,25 @@ export function JournalSection() {
               </div>
             </article>
           ))}
+          
+          {/* View All Posts Button */}
+          <div className="text-center mt-8">
+            <Button 
+              variant="outline" 
+              className="border-green-500 text-green-600 hover:bg-green-500 hover:text-white"
+            >
+              View All Posts
+              <ArrowRight className="ml-2 w-4 h-4" />
+            </Button>
+          </div>
         </div>
         
-        {/* Newsletter signup */}
+        {/* Unified CTA */}
         <div className="bg-gray-900 text-white rounded-lg p-8 mt-16 text-center">
           <BookOpen className="w-12 h-12 text-green-400 mx-auto mb-4" />
-          <h3 className="text-2xl font-bold mb-4">Stay Updated</h3>
+          <h3 className="text-2xl font-bold mb-4">Follow the Journey</h3>
           <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-            Get notified when new journal entries are published. No spam, just indie maker insights.
+            Subscribe or reach out — let's build together. No spam, just indie developer insights.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">

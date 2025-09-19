@@ -14,62 +14,34 @@ export function MissionSection() {
           </div>
           
           {/* Main manifesto */}
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <div className="space-y-6 text-lg leading-relaxed">
-                <p className="text-2xl font-mono text-green-600">
-                  &gt; I believe in building without permission.
+          <div className="max-w-3xl mx-auto mb-16">
+            <div className="space-y-6 text-lg leading-relaxed text-center">
+              <p className="text-2xl font-mono text-green-600">
+                &gt; I believe in building without permission.
+              </p>
+              <p>
+                In a world of gatekeepers and venture capital, I choose the indie path. 
+                I build products that matter, solve real problems, and create value 
+                without compromise.
+              </p>
+              
+              {/* AI empowerment note */}
+              <div className="bg-gray-50 border-l-4 border-green-500 p-4 rounded-r-lg">
+                <p className="text-gray-600 mb-2">
+                  I have AI now — one builder can do the work of ten.
                 </p>
-                <p>
-                  In a world of gatekeepers and venture capital, I choose the indie path. 
-                  I build products that matter, solve real problems, and create value 
-                  without compromise.
+                <p className="text-xs font-mono text-green-600 italic">
+                  (Think Loki telling Thanos "We have a Hulk" — but for coding.)
                 </p>
-                
-                {/* AI empowerment note */}
-                <div className="bg-gray-50 border-l-4 border-green-500 p-4 rounded-r-lg">
-                  <p className="text-gray-600 mb-2">
-                    I have AI now — one builder can do the work of ten.
-                  </p>
-                  <p className="text-xs font-mono text-green-600 italic">
-                    (Think Loki giving Hulk that little… push.)
-                  </p>
-                </div>
-                
-                <p>
-                  Every unicorn started as an idea. Every empire began with a single line of code. 
-                  I&apos;m not just building products—I&apos;m building the future, one commit at a time.
-                </p>
-                <p className="font-mono text-green-600 border-l-4 border-green-500 pl-4">
-                  Independence. Innovation. Impact.
-                </p>
-              </div>
-            </div>
-            
-            <div className="grid grid-cols-2 gap-6">
-              <div className="bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
-                <Code className="w-12 h-12 text-green-500 mx-auto mb-4" />
-                <h3 className="font-bold mb-2">Ship Fast</h3>
-                <p className="text-sm text-gray-600">Build, iterate, improve</p>
               </div>
               
-              <div className="bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
-                <Zap className="w-12 h-12 text-green-500 mx-auto mb-4" />
-                <h3 className="font-bold mb-2">Stay Lean</h3>
-                <p className="text-sm text-gray-600">Maximum impact, minimal overhead</p>
-              </div>
-              
-              <div className="bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
-                <Users className="w-12 h-12 text-green-500 mx-auto mb-4" />
-                <h3 className="font-bold mb-2">User First</h3>
-                <p className="text-sm text-gray-600">Solve real problems</p>
-              </div>
-              
-              <div className="bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
-                <Rocket className="w-12 h-12 text-green-500 mx-auto mb-4" />
-                <h3 className="font-bold mb-2">Scale Smart</h3>
-                <p className="text-sm text-gray-600">Grow sustainably</p>
-              </div>
+              <p>
+                Every unicorn started as an idea. Every empire began with a single line of code. 
+                I&apos;m not just building products—I&apos;m building the future, one commit at a time.
+              </p>
+              <p className="font-mono text-green-600 border-l-4 border-green-500 pl-4">
+                Independence. Innovation. Impact.
+              </p>
             </div>
           </div>
           

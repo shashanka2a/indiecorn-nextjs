@@ -45,21 +45,15 @@ const socialLinks = [
 
 export function FollowSection() {
   return (
-    <section className="bg-black text-white py-20" id="follow">
+    <section className="bg-black text-white py-12" id="follow">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold mb-6">
             Let&apos;s <span className="text-green-400">Connect</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Follow the journey, join the conversation, and be part of the indie maker community
-          </p>
-          <div className="w-24 h-1 bg-green-400 mx-auto mt-6"></div>
-        </div>
-        
-        <div className="max-w-4xl mx-auto">
-          {/* Social links grid */}
-          <div className="grid md:grid-cols-2 gap-6 mb-16">
+          
+          {/* Simple social links row */}
+          <div className="flex justify-center gap-6">
             {socialLinks.map((social) => {
               const IconComponent = social.icon;
               return (
@@ -68,54 +62,13 @@ export function FollowSection() {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`block p-6 bg-gray-900 border border-gray-800 rounded-lg transition-all duration-300 group ${social.color}`}
+                  className={`p-3 rounded-lg transition-all duration-300 group ${social.color}`}
+                  title={social.name}
                 >
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0">
-                      <IconComponent className="w-8 h-8 text-gray-400 group-hover:scale-110 transition-transform" />
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <h3 className="text-xl font-bold">{social.name}</h3>
-                        <ExternalLink className="w-4 h-4 text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity" />
-                      </div>
-                      <p className="font-mono text-green-400 mb-2">{social.handle}</p>
-                      <p className="text-gray-400 text-sm">{social.description}</p>
-                    </div>
-                  </div>
+                  <IconComponent className="w-6 h-6 text-gray-400 group-hover:scale-110 transition-transform" />
                 </a>
               );
             })}
-          </div>
-          
-          {/* Call to action */}
-          <div className="text-center">
-            <div className="bg-gradient-to-r from-green-400/10 to-transparent border border-green-400/30 rounded-lg p-8">
-              <h3 className="text-2xl font-bold mb-4">Ready to Build Something Amazing?</h3>
-              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-                Whether you&apos;re an aspiring indie maker, experienced developer, or just curious about the journey, 
-                I&apos;d love to hear from you. Let&apos;s turn ideas into reality.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button 
-                  size="lg"
-                  className="bg-green-400 hover:bg-green-500 text-black font-mono"
-                >
-                  <Mail className="mr-2 w-5 h-5" />
-                  Get In Touch
-                </Button>
-                
-                <Button 
-                  variant="outline"
-                  size="lg"
-                  className="border-green-400 text-green-400 hover:bg-green-400 hover:text-black font-mono"
-                >
-                  <Youtube className="mr-2 w-5 h-5" />
-                  Subscribe
-                </Button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
