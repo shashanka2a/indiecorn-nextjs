@@ -3,20 +3,29 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://indiecorn.xyz'),
-  title: "IndieCorn - Building the Future, One Indie Project at a Time",
-  description: "Indie maker building innovative solutions for campus life and startups. Explore Kampus.fun, Markit.one, and Layr.plus - tools designed to empower the next generation of creators.",
+  title: "IndieCorn - The Next Big Movement in Tech | Indie Today, Unicorn Tomorrow",
+  description: "IndieCorn is the new term defining the AI-powered indie developer revolution. One builder, one laptop, one billion-dollar vision. Join the movement that's reshaping how we build the future.",
   keywords: [
+    "IndieCorn",
+    "indie developer",
+    "AI-powered development",
+    "solo entrepreneur",
+    "indie hacker",
+    "startup movement",
+    "tech revolution",
+    "AI coding",
+    "solo founder",
     "indie maker",
-    "startup tools",
-    "campus life",
-    "student commerce",
-    "ride sharing",
-    "SaaS tools",
-    "entrepreneur",
+    "unicorn startup",
     "tech innovation",
-    "Kampus.fun",
-    "Markit.one",
-    "Layr.plus"
+    "AI tools",
+    "developer movement",
+    "indie tech",
+    "solo builder",
+    "AI-assisted coding",
+    "indie revolution",
+    "tech disruption",
+    "future of development"
   ],
   authors: [{ name: "Shashank Jagannatham" }],
   creator: "Shashank Jagannatham",
@@ -36,22 +45,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://indiecorn.xyz",
-    title: "IndieCorn - Building the Future, One Indie Project at a Time",
-    description: "Indie maker building innovative solutions for campus life and startups. Explore Kampus.fun, Markit.one, and Layr.plus - tools designed to empower the next generation of creators.",
+    title: "IndieCorn - The Next Big Movement in Tech | Indie Today, Unicorn Tomorrow",
+    description: "IndieCorn is the new term defining the AI-powered indie developer revolution. One builder, one laptop, one billion-dollar vision. Join the movement that's reshaping how we build the future.",
     siteName: "IndieCorn",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "IndieCorn - Building the Future, One Indie Project at a Time",
+        alt: "IndieCorn - The AI-Powered Indie Developer Revolution",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "IndieCorn - Building the Future, One Indie Project at a Time",
-    description: "Indie maker building innovative solutions for campus life and startups. Explore Kampus.fun, Markit.one, and Layr.plus.",
+    title: "IndieCorn - The Next Big Movement in Tech 🦄",
+    description: "The new term defining the AI-powered indie developer revolution. Indie today, unicorn tomorrow. #IndieCorn #TechRevolution",
     creator: "@jagannathamshashank",
     images: ["/og-image.png"],
   },
@@ -79,6 +88,18 @@ export default function RootLayout({
         <meta name="theme-color" content="#22c55e" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="format-detection" content="telephone=no" />
+        
+        {/* Additional SEO Meta Tags */}
+        <meta name="application-name" content="IndieCorn" />
+        <meta name="apple-mobile-web-app-title" content="IndieCorn" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        
+        {/* IndieCorn Movement Meta Tags */}
+        <meta name="movement" content="IndieCorn - AI-Powered Indie Developer Revolution" />
+        <meta name="trending" content="IndieCorn, indie developer, AI coding, solo entrepreneur" />
+        <meta name="hashtag" content="#IndieCorn #TechRevolution #IndieDeveloper #AICoding" />
       </head>
       <body className="antialiased">
         {children}
