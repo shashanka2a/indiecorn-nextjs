@@ -19,6 +19,4 @@
   <!-- Cursor -->
   <rect x="24" y="21" width="1" height="1" fill="#22c55e"/>
   
-  <!-- IC text -->
-  <text x="16" y="28" font-family="monospace" font-size="6" fill="#22c55e" text-anchor="middle">IC</text>
 </svg>
