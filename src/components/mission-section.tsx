@@ -1,4 +1,3 @@
-import { Code, Zap, Users, Rocket } from "lucide-react";
 
 export function MissionSection() {
   return (
@@ -31,7 +30,7 @@ export function MissionSection() {
                   I have AI now — one builder can do the work of ten.
                 </p>
                 <p className="text-xs font-mono text-green-600 italic">
-                  (Think Loki telling Thanos "We have a Hulk" — but for coding.)
+                  (Think Loki telling Thanos &quot;We have a Hulk&quot; — but for coding.)
                 </p>
               </div>
               

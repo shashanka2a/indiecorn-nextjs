@@ -137,7 +137,7 @@ export function JournalSection() {
           <BookOpen className="w-12 h-12 text-green-400 mx-auto mb-4" />
           <h3 className="text-2xl font-bold mb-4">Follow the Journey</h3>
           <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-            Subscribe or reach out — let's build together. No spam, just indie developer insights.
+            Subscribe or reach out — let&apos;s build together. No spam, just indie developer insights.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">

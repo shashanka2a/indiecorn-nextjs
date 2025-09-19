@@ -7,12 +7,6 @@ interface LogoProps {
 }
 
 export function Logo({ className = '', size = 'md', variant = 'full' }: LogoProps) {
-  const sizeClasses = {
-    sm: 'w-24 h-8',
-    md: 'w-32 h-10',
-    lg: 'w-40 h-12',
-    xl: 'w-48 h-14'
-  };
 
   const iconSizes = {
     sm: { width: 24, height: 24 },
@@ -100,5 +94,6 @@ export function Logo({ className = '', size = 'md', variant = 'full' }: LogoProp
 }
 
 export default Logo;
+
 
 

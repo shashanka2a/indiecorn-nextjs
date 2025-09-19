@@ -1,5 +1,4 @@
-import { Button } from "./ui/button";
-import { Youtube, Instagram, Mail, ExternalLink } from "lucide-react";
+import { Youtube, Instagram, Mail } from "lucide-react";
 
 // Custom TikTok icon component
 const TikTokIcon = ({ className }: { className?: string }) => (
