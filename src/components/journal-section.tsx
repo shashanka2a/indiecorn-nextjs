@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "./ui/button";
 import { Calendar, Clock, ArrowRight, BookOpen } from "lucide-react";
 import { useState } from "react";
