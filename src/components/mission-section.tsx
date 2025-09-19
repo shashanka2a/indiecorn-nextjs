@@ -25,15 +25,25 @@ export function MissionSection() {
               </p>
               
               {/* AI empowerment meme */}
-              <div className="bg-black border border-green-500/30 rounded-lg p-6 text-center">
-                <div className="space-y-4">
-                  <p className="text-white text-lg font-bold">
-                    I have VCs, MBAs, and big teams.
-                  </p>
-                  <div className="w-full h-px bg-green-500/50"></div>
-                  <p className="text-green-400 text-xl font-bold">
-                    We have AI.
-                  </p>
+              <div className="bg-black border border-green-500/30 rounded-lg p-6">
+                <div className="space-y-6">
+                  <div className="text-center">
+                    <p className="text-white text-lg font-bold mb-2">
+                      "I have VCs, MBAs, big teams."
+                    </p>
+                    <p className="text-gray-400 text-sm font-mono">
+                      – The Old Playbook
+                    </p>
+                  </div>
+                  
+                  <div className="text-center">
+                    <p className="text-green-400 text-xl font-bold mb-2">
+                      "We have AI."
+                    </p>
+                    <p className="text-green-500 text-sm font-mono">
+                      – IndieCorn
+                    </p>
+                  </div>
                 </div>
               </div>
               
@@ -43,14 +53,6 @@ export function MissionSection() {
             </div>
           </div>
           
-          {/* Quote */}
-          <blockquote className="text-center border-t border-gray-200 pt-12">
-            <p className="text-2xl md:text-3xl italic text-gray-700 mb-4">
-              &ldquo;The best time to plant a tree was 20 years ago. 
-              The second best time is now.&rdquo;
-            </p>
-            <cite className="text-green-600 font-mono">- Ancient Proverb, Modern Truth</cite>
-          </blockquote>
         </div>
       </div>
     </section>
