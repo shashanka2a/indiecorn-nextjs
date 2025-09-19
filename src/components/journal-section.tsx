@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { Calendar, Clock, ArrowRight, BookOpen } from "lucide-react";
+import { useState } from "react";
 
 const journalEntries = [
   {
@@ -37,6 +38,10 @@ const journalEntries = [
 ];
 
 export function JournalSection() {
+  const [showAll, setShowAll] = useState(false);
+  
+  const displayedEntries = showAll ? journalEntries : journalEntries.slice(0, 2);
+
   return (
     <section className="bg-white text-black py-20" id="journal">
       <div className="container mx-auto px-6">
@@ -51,7 +56,7 @@ export function JournalSection() {
         </div>
         
         <div className="max-w-4xl mx-auto">
-          {journalEntries.slice(0, 2).map((entry) => (
+          {displayedEntries.map((entry) => (
             <article 
               key={entry.title}
               className="border-b border-gray-200 pb-8 mb-8 last:border-b-0 hover:bg-gray-50 transition-colors p-6 rounded-lg group"
@@ -121,15 +126,32 @@ export function JournalSection() {
           ))}
           
           {/* View All Posts Button */}
-          <div className="text-center mt-8">
-            <Button 
-              variant="outline" 
-              className="border-green-500 text-green-600 hover:bg-green-500 hover:text-white"
-            >
-              View All Posts
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
-          </div>
+          {!showAll && (
+            <div className="text-center mt-8">
+              <Button 
+                variant="outline" 
+                className="border-green-500 text-green-600 hover:bg-green-500 hover:text-white"
+                onClick={() => setShowAll(true)}
+              >
+                View All Posts
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Button>
+            </div>
+          )}
+          
+          {/* Show Less Button */}
+          {showAll && (
+            <div className="text-center mt-8">
+              <Button 
+                variant="outline" 
+                className="border-green-500 text-green-600 hover:bg-green-500 hover:text-white"
+                onClick={() => setShowAll(false)}
+              >
+                Show Less
+                <ArrowRight className="ml-2 w-4 h-4 rotate-180" />
+              </Button>
+            </div>
+          )}
         </div>
         
         {/* Unified CTA */}
