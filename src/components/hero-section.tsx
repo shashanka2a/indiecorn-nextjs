@@ -34,11 +34,6 @@ export function HeroSection() {
           Tony Stark built his suit in a cave. I am trying to build startups on a MacBook Pro 2022 — no team, no VC, just AI and focus.
         </p>
         
-        <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
-          Trying to build the future, one indie project at a time. 
-          <br />
-          <span className="text-green-400 font-mono">🦄</span>
-        </p>
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

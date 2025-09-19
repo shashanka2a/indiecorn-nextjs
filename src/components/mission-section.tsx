@@ -24,20 +24,19 @@ export function MissionSection() {
                 without compromise.
               </p>
               
-              {/* AI empowerment note */}
-              <div className="bg-gray-50 border-l-4 border-green-500 p-4 rounded-r-lg">
-                <p className="text-gray-600 mb-2">
-                  I have AI now — one builder can do the work of ten.
-                </p>
-                <p className="text-xs font-mono text-green-600 italic">
-                  (Think Loki telling Thanos &quot;We have a Hulk&quot; — but for coding.)
-                </p>
+              {/* AI empowerment meme */}
+              <div className="bg-black border border-green-500/30 rounded-lg p-6 text-center">
+                <div className="space-y-4">
+                  <p className="text-white text-lg font-bold">
+                    I have VCs, MBAs, and big teams.
+                  </p>
+                  <div className="w-full h-px bg-green-500/50"></div>
+                  <p className="text-green-400 text-xl font-bold">
+                    We have AI.
+                  </p>
+                </div>
               </div>
               
-              <p>
-                Every unicorn started as an idea. Every empire began with a single line of code. 
-                I&apos;m not just building products—I&apos;m building the future, one commit at a time.
-              </p>
               <p className="font-mono text-green-600 border-l-4 border-green-500 pl-4">
                 Independence. Innovation. Impact.
               </p>
