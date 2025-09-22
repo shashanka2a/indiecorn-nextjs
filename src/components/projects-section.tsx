@@ -19,7 +19,7 @@ const projects = [
     icon: "⚡",
     description: "Simplify forms, QR codes, and hiring — all in one place. Essential tools built for startups to launch faster and scale smarter.",
     tech: ["Next.js", "OpenAI", "Stripe"],
-    status: "Live",
+    status: "Coming October",
     link: "https://www.markit.one/",
     github: "#",
     color: "from-green-500 to-teal-600"
@@ -30,7 +30,7 @@ const projects = [
     icon: "🤖",
     description: "All the layers you need to build. Everything you need to create, design, and deploy from concept to completion.",
     tech: ["Vue.js", "Canvas API", "Firebase"],
-    status: "Live",
+    status: "Coming November",
     link: "https://www.layr.plus/",
     github: "#",
     color: "from-orange-500 to-red-600"
