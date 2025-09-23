@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://indiecorn.xyz'),
-  title: "IndieCorn - The Next Big Movement in Tech | Indie Today, Unicorn Tomorrow",
-  description: "IndieCorn is the new term defining the AI-powered indie developer revolution. One builder, one laptop, one billion-dollar vision. Join the movement that's reshaping how we build the future.",
+  title: "Indiecorn – Startup Studio for Indie Founders",
+  description: "Indiecorn is a startup studio empowering indie founders to build the next generation of unicorns. We provide AI-powered tools, resources, and community for solo entrepreneurs.",
   keywords: [
     "IndieCorn",
     "indie developer",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://indiecorn.xyz",
-    title: "IndieCorn - The Next Big Movement in Tech | Indie Today, Unicorn Tomorrow",
-    description: "IndieCorn is the new term defining the AI-powered indie developer revolution. One builder, one laptop, one billion-dollar vision. Join the movement that's reshaping how we build the future.",
+    title: "Indiecorn – Startup Studio for Indie Founders",
+    description: "Indiecorn is a startup studio empowering indie founders to build the next generation of unicorns. We provide AI-powered tools, resources, and community for solo entrepreneurs.",
     siteName: "IndieCorn",
     images: [
       {
@@ -59,8 +59,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "IndieCorn - The Next Big Movement in Tech 🦄",
-    description: "The new term defining the AI-powered indie developer revolution. Indie today, unicorn tomorrow. #IndieCorn #TechRevolution",
+    title: "Indiecorn – Startup Studio for Indie Founders 🦄",
+    description: "Startup studio empowering indie founders to build unicorns. AI-powered tools, resources, and community. #Indiecorn #StartupStudio",
     creator: "@jagannathamshashank",
     images: ["/og-image.png"],
   },
@@ -100,6 +100,54 @@ export default function RootLayout({
         <meta name="movement" content="IndieCorn - AI-Powered Indie Developer Revolution" />
         <meta name="trending" content="IndieCorn, indie developer, AI coding, solo entrepreneur" />
         <meta name="hashtag" content="#IndieCorn #TechRevolution #IndieDeveloper #AICoding" />
+        
+        {/* JSON-LD Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Indiecorn",
+              "alternateName": "IndieCorn",
+              "description": "Startup studio for indie founders building the next generation of unicorns",
+              "url": "https://indiecorn.xyz",
+              "logo": "https://indiecorn.xyz/logo.svg",
+              "founder": {
+                "@type": "Person",
+                "name": "Shashank Jagannatham"
+              },
+              "foundingDate": "2024",
+              "keywords": "Indiecorn, startup studio, indie founders, AI-powered development, solo entrepreneurs",
+              "sameAs": [
+                "https://twitter.com/jagannathamshashank",
+                "https://youtube.com/@indiecorn.xyz",
+                "https://instagram.com/indiecorn.xyz"
+              ],
+              "mainEntity": {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "What is Indiecorn?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Indiecorn is a startup studio that empowers indie founders to build the next generation of unicorns. We provide AI-powered tools, resources, and community support for solo entrepreneurs."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What's the difference between Indiecorn and Indicorn?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Indiecorn (with 'e') is our startup studio brand focused on indie founders. Indicorn (without 'e') is a different entity. We are Indiecorn - the startup studio for indie founders."
+                    }
+                  }
+                ]
+              }
+            })
+          }}
+        />
       </head>
       <body className="antialiased">
         {children}

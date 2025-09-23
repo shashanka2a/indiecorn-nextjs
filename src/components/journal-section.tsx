@@ -6,6 +6,22 @@ import { useState } from "react";
 
 const journalEntries = [
   {
+    title: "What is Indiecorn?",
+    excerpt: "Discover Indiecorn - the startup studio empowering indie founders to build the next generation of unicorns with AI-powered tools and community support.",
+    date: "2024-12-19",
+    readTime: "5 min read",
+    tags: ["Indiecorn", "Startup Studio", "Brand Definition"],
+    link: "/blog/what-is-indiecorn"
+  },
+  {
+    title: "Indiecorn vs Indicorn: The Key Differences",
+    excerpt: "Understanding the distinction between Indiecorn (our startup studio) and Indicorn (different entity). Learn why the spelling matters for our brand identity.",
+    date: "2024-12-19",
+    readTime: "4 min read",
+    tags: ["Indiecorn", "Brand Identity", "Clarification"],
+    link: "/blog/indiecorn-vs-indicorn"
+  },
+  {
     title: "The Monopoly Exploitation Cycle: How Once-Innovative Companies Turn Against Their Users",
     excerpt: "Exploring how successful companies evolve from user-centric innovators to profit-maximizing monopolies that exploit their user base.",
     date: "2025-09-01",
