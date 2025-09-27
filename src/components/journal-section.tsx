@@ -11,7 +11,7 @@ const journalEntries = [
     date: "2024-12-19",
     readTime: "5 min read",
     tags: ["Indiecorn", "Startup Studio", "Brand Definition"],
-    link: "/blog/what-is-indiecorn"
+    link: "https://medium.com/@jagannathamshashank/indiecorn-vs-indicorn-why-spelling-matters-for-our-identity-2926632b50a1"
   },
   {
     title: "Indiecorn vs Indicorn: The Key Differences",
@@ -19,7 +19,7 @@ const journalEntries = [
     date: "2024-12-19",
     readTime: "4 min read",
     tags: ["Indiecorn", "Brand Identity", "Clarification"],
-    link: "/blog/indiecorn-vs-indicorn"
+    link: "https://medium.com/@jagannathamshashank/indiecorn-vs-indicorn-why-spelling-matters-for-our-identity-2926632b50a1"
   },
   {
     title: "The Monopoly Exploitation Cycle: How Once-Innovative Companies Turn Against Their Users",

@@ -85,9 +85,6 @@ export function Logo({ className = '', size = 'md', variant = 'full' }: LogoProp
         <span className={`font-mono font-bold ${textSizes[size]} text-white leading-none`}>
           IndieCorn
         </span>
-        <span className={`font-mono ${textSizes[size === 'sm' ? 'sm' : 'sm']} text-green-400 leading-none`}>
-          .xyz
-        </span>
       </div>
     </div>
   );
