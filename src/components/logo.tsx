@@ -42,13 +42,11 @@ export function Logo({ className = '', size = 'md', variant = 'full' }: LogoProp
             <stop offset="100%" stopColor="#a855f7"/>
           </linearGradient>
         </defs>
-        <rect x="3" y="3" width="26" height="26" rx="3.6"
-              stroke="url(#grad-green)" strokeWidth="1.6" fill="none"/>
-        <path d="M10 10 L6 16 L10 22"
+        <path d="M8 10 L4 16 L8 22"
               stroke="url(#grad-green)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         <path d="M14 10 L18 22"
               stroke="url(#grad-horn)" strokeWidth="2" strokeLinecap="round"/>
-        <path d="M22 10 L26 16 L22 22"
+        <path d="M24 10 L28 16 L24 22"
               stroke="url(#grad-green)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     );
@@ -88,13 +86,11 @@ export function Logo({ className = '', size = 'md', variant = 'full' }: LogoProp
             <stop offset="100%" stopColor="#a855f7"/>
           </linearGradient>
         </defs>
-        <rect x="3" y="3" width="26" height="26" rx="3.6"
-              stroke="url(#grad-green-full)" strokeWidth="1.6" fill="none"/>
-        <path d="M10 10 L6 16 L10 22"
+        <path d="M8 10 L4 16 L8 22"
               stroke="url(#grad-green-full)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         <path d="M14 10 L18 22"
               stroke="url(#grad-horn-full)" strokeWidth="2" strokeLinecap="round"/>
-        <path d="M22 10 L26 16 L22 22"
+        <path d="M24 10 L28 16 L24 22"
               stroke="url(#grad-green-full)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
       <div className="flex flex-col">
