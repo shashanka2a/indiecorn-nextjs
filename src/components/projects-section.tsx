@@ -111,6 +111,28 @@ const projects = [
     link: "https://www.momint.club/",
     github: "#",
     color: "from-indigo-500 to-purple-600"
+  },
+  {
+    name: "WhatIfStudio.art",
+    tagline: "AI filmmaking platform",
+    icon: "🎬",
+    description: "Rewriting sad endings beautifully. Exploring alternate timelines through AI filmmaking. Every story deserves a second chance.",
+    category: ["AI Filmmaking", "Creative Platform", "Storytelling"],
+    status: "Live",
+    link: "https://www.whatifstudio.art/",
+    github: "#",
+    color: "from-orange-500 to-red-600"
+  },
+  {
+    name: "Aura Art",
+    tagline: "AI creative platform",
+    icon: "🎨",
+    description: "AI meets creativity. The ultimate creative platform combining stunning templates, powerful editing tools, and intelligent AI assistance. Create professional content in seconds.",
+    category: ["AI Platform", "Creative Tools", "Content Creation"],
+    status: "Live",
+    link: "https://www.tryaura.art/",
+    github: "#",
+    color: "from-purple-500 to-pink-600"
   }
 ];
 
