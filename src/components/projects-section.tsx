@@ -127,7 +127,7 @@ const projects = [
     name: "Aura Art",
     tagline: "AI creative platform",
     icon: "🎨",
-    description: "AI meets creativity. Ultimate creative platform with templates, editing tools, and AI assistance. Create professional content in seconds.",
+    description: "AI meets creativity. Ultimate creative platform with templates, editing tools, and AI assistance.",
     category: ["AI", "Creative", "Content"],
     status: "Live",
     link: "https://www.tryaura.art/",
