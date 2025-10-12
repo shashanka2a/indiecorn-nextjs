@@ -113,7 +113,7 @@ const projects = [
     color: "from-indigo-500 to-purple-600"
   },
   {
-    name: "WhatIfStudio.art",
+    name: "WhatIfStudio",
     tagline: "AI filmmaking platform",
     icon: "🎬",
     description: "Rewriting sad endings beautifully. Exploring alternate timelines through AI filmmaking. Every story deserves a second chance.",
