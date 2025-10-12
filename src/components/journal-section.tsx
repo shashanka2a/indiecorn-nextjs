@@ -8,15 +8,15 @@ const journalEntries = [
   {
     title: "What is Indiecorn?",
     excerpt: "Discover Indiecorn - the startup studio empowering indie founders to build the next generation of unicorns with AI-powered tools and community support.",
-    date: "2024-12-19",
+    date: "2025-10-01",
     readTime: "5 min read",
     tags: ["Indiecorn", "Startup Studio", "Brand Definition"],
-    link: "https://medium.com/@jagannathamshashank/indiecorn-vs-indicorn-why-spelling-matters-for-our-identity-2926632b50a1"
+    link: "https://medium.com/@jagannathamshashank/what-is-indiecorn-building-the-next-generation-of-indie-unicorns-4b559f5e33cf"
   },
   {
     title: "Indiecorn vs Indicorn: The Key Differences",
     excerpt: "Understanding the distinction between Indiecorn (our startup studio) and Indicorn (different entity). Learn why the spelling matters for our brand identity.",
-    date: "2024-12-19",
+    date: "2025-10-15",
     readTime: "4 min read",
     tags: ["Indiecorn", "Brand Identity", "Clarification"],
     link: "https://medium.com/@jagannathamshashank/indiecorn-vs-indicorn-why-spelling-matters-for-our-identity-2926632b50a1"
