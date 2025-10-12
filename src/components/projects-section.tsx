@@ -7,7 +7,7 @@ const projects = [
     tagline: "Campus super-app",
     icon: "🏫",
     description: "Your ultimate campus life platform. Connect, buy, sell, ride, and discover everything campus has to offer — all in one place.",
-    tech: ["React", "Node.js", "PostgreSQL"],
+    category: ["Campus Tech", "Social Platform", "Marketplace"],
     status: "Live",
     link: "https://www.kampus.fun/",
     github: "#",
@@ -18,7 +18,7 @@ const projects = [
     tagline: "Startup SaaS hub",
     icon: "⚡",
     description: "Simplify forms, QR codes, and hiring — all in one place. Essential tools built for startups to launch faster and scale smarter.",
-    tech: ["Next.js", "OpenAI", "Stripe"],
+    category: ["SaaS", "Startup Tools", "Automation"],
     status: "Beta Launch",
     link: "https://www.markit.one/",
     github: "#",
@@ -29,7 +29,7 @@ const projects = [
     tagline: "All-in-one hackathon hub",
     icon: "🏆",
     description: "Host smarter, judge faster, hire better — all in one super app. The complete platform for hackathons with AI-powered management, automated judging, and talent discovery.",
-    tech: ["Next.js", "AI/ML", "Real-time"],
+    category: ["Event Management", "AI Platform", "Talent Acquisition"],
     status: "Coming October",
     link: "https://www.hackr.plus/",
     github: "#",
@@ -40,7 +40,7 @@ const projects = [
     tagline: "Unified payment OS",
     icon: "💳",
     description: "Your payments, simplified. From business invoices to creator tips to global transfers — all unified in one seamless payment experience with crypto and fiat support.",
-    tech: ["React", "Blockchain", "Stripe"],
+    category: ["Fintech", "Payment Platform", "Crypto"],
     status: "Coming November",
     link: "https://www.payd.plus/",
     github: "#",
@@ -51,11 +51,66 @@ const projects = [
     tagline: "Builder's toolkit",
     icon: "🤖",
     description: "All the layers you need to build. Everything you need to create, design, and deploy from concept to completion.",
-    tech: ["Vue.js", "Canvas API", "Firebase"],
+    category: ["Developer Tools", "Design Platform", "SaaS"],
     status: "Coming December",
     link: "https://www.layr.plus/",
     github: "#",
     color: "from-orange-500 to-red-600"
+  },
+  {
+    name: "MenuPRO",
+    tagline: "Digital menu platform",
+    icon: "🍽️",
+    description: "Digital menu platform for restaurants. Scan, order, and serve — no tablets, no delays. Customers order directly from their table with QR codes.",
+    category: ["Restaurant Tech", "SaaS", "QR Technology"],
+    status: "Live",
+    link: "https://www.menupro.biz/",
+    github: "#",
+    color: "from-orange-500 to-yellow-600"
+  },
+  {
+    name: "OpenGig",
+    tagline: "AI-powered client scoping",
+    icon: "⚡",
+    description: "Turn client inquiries into ready-to-build briefs. Automate onboarding, save time, and start projects faster with AI-powered client scoping.",
+    category: ["AI Platform", "Freelancer Tools", "Automation"],
+    status: "Live",
+    link: "https://opengig.net/",
+    github: "#",
+    color: "from-purple-500 to-pink-600"
+  },
+  {
+    name: "StayLinq",
+    tagline: "Unified hospitality platform",
+    icon: "🏨",
+    description: "An end-to-end operating system for vacation rental managers — combining operational automation with a five-star guest experience.",
+    category: ["Hospitality Tech", "Property Management", "SaaS"],
+    status: "Live",
+    link: "https://www.staylinq.co/",
+    github: "#",
+    color: "from-blue-500 to-cyan-600"
+  },
+  {
+    name: "ProductJoy",
+    tagline: "Premium development",
+    icon: "🚀",
+    description: "Premium web & mobile app development that moves at the speed of your ambition. From wireframes to launch, we make it happen.",
+    category: ["Development Agency", "Web Development", "Mobile Apps"],
+    status: "Live",
+    link: "https://www.productjoy.co/",
+    github: "#",
+    color: "from-pink-500 to-purple-600"
+  },
+  {
+    name: "Momint",
+    tagline: "NFT marketplace for influencers",
+    icon: "💎",
+    description: "Own moments from your favorite influencers. Exclusive NFTs with perks like meet-and-greets, discounts, and gated content.",
+    category: ["Web3", "NFT Marketplace", "Creator Economy"],
+    status: "Live",
+    link: "https://www.momint.club/",
+    github: "#",
+    color: "from-indigo-500 to-purple-600"
   }
 ];
 
@@ -106,16 +161,16 @@ export function ProjectsSection() {
                   {project.description}
                 </p>
                 
-                {/* Tech stack */}
+                {/* Category/Industry */}
                 <div className="mb-6">
-                  <p className="text-sm text-gray-400 mb-2 font-mono">Tech Stack:</p>
+                  <p className="text-sm text-gray-400 mb-2 font-mono">Category:</p>
                   <div className="flex flex-wrap gap-2">
-                    {project.tech.map((tech) => (
+                    {project.category.map((category) => (
                       <span 
-                        key={tech}
+                        key={category}
                         className="px-2 py-1 bg-gray-800 rounded text-xs font-mono text-green-400"
                       >
-                        {tech}
+                        {category}
                       </span>
                     ))}
                   </div>
