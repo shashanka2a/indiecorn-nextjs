@@ -29,8 +29,6 @@ export function HeroSection() {
           <span className="text-green-400">tomorrow.</span>
         </h1>
         
-        {/* SEO H1 for brand definition */}
-        <h1 className="sr-only">Indiecorn – Startup Studio for Indie Founders</h1>
         
         {/* Tony Stark subline */}
         <p className="font-mono text-sm md:text-base text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">

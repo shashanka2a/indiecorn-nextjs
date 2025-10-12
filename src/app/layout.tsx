@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://indiecorn.xyz'),
-  title: "Indiecorn – Startup Studio for Indie Founders",
+  title: "Indiecorn",
   description: "Indiecorn is a startup studio empowering indie founders to build the next generation of unicorns. We provide AI-powered tools, resources, and community for solo entrepreneurs.",
   keywords: [
     "IndieCorn",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://indiecorn.xyz",
-    title: "Indiecorn – Startup Studio for Indie Founders",
+    title: "Indiecorn",
     description: "Indiecorn is a startup studio empowering indie founders to build the next generation of unicorns. We provide AI-powered tools, resources, and community for solo entrepreneurs.",
     siteName: "IndieCorn",
     images: [
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Indiecorn – Startup Studio for Indie Founders 🦄",
+    title: "Indiecorn 🦄",
     description: "Startup studio empowering indie founders to build unicorns. AI-powered tools, resources, and community. #Indiecorn #StartupStudio",
     creator: "@jagannathamshashank",
     images: ["/og-image.png"],
