@@ -19,10 +19,32 @@ const projects = [
     icon: "⚡",
     description: "Simplify forms, QR codes, and hiring — all in one place. Essential tools built for startups to launch faster and scale smarter.",
     tech: ["Next.js", "OpenAI", "Stripe"],
-    status: "Coming October",
+    status: "Beta Launch",
     link: "https://www.markit.one/",
     github: "#",
     color: "from-green-500 to-teal-600"
+  },
+  {
+    name: "Hackr.plus",
+    tagline: "All-in-one hackathon hub",
+    icon: "🏆",
+    description: "Host smarter, judge faster, hire better — all in one super app. The complete platform for hackathons with AI-powered management, automated judging, and talent discovery.",
+    tech: ["Next.js", "AI/ML", "Real-time"],
+    status: "Coming October",
+    link: "https://www.hackr.plus/",
+    github: "#",
+    color: "from-purple-500 to-pink-600"
+  },
+  {
+    name: "Payd.plus",
+    tagline: "Unified payment OS",
+    icon: "💳",
+    description: "Your payments, simplified. From business invoices to creator tips to global transfers — all unified in one seamless payment experience with crypto and fiat support.",
+    tech: ["React", "Blockchain", "Stripe"],
+    status: "Coming November",
+    link: "https://www.payd.plus/",
+    github: "#",
+    color: "from-cyan-500 to-blue-600"
   },
   {
     name: "Layr.plus",
@@ -30,7 +52,7 @@ const projects = [
     icon: "🤖",
     description: "All the layers you need to build. Everything you need to create, design, and deploy from concept to completion.",
     tech: ["Vue.js", "Canvas API", "Firebase"],
-    status: "Coming November",
+    status: "Coming December",
     link: "https://www.layr.plus/",
     github: "#",
     color: "from-orange-500 to-red-600"
