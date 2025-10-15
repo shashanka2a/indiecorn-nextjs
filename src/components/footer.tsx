@@ -8,7 +8,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Terminal className="w-6 h-6 text-green-400" />
+              <img src="/favicon.svg" alt="IndieCorn" className="w-6 h-6" />
               <span className="font-mono font-bold text-lg">IndieCorn.xyz</span>
             </div>
             <p className="text-gray-400 mb-4">
