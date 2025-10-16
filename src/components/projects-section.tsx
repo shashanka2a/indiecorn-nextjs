@@ -178,7 +178,7 @@ export function ProjectsSection() {
             Current <span className="text-green-400">Projects</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Building the tools and platforms that empower the next generation of indie makers
+            Building 25 projects by end of 2025 - tools and platforms that empower the next generation of indie makers
           </p>
           <div className="w-24 h-1 bg-green-400 mx-auto mt-6"></div>
         </div>
