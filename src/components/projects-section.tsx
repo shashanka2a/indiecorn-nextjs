@@ -133,6 +133,39 @@ const projects = [
     link: "https://www.tryaura.art/",
     github: "#",
     color: "from-purple-500 to-pink-600"
+  },
+  {
+    name: "SnapEvent",
+    tagline: "Photographer marketplace",
+    icon: "📸",
+    description: "Capture life's best moments. Find the perfect photographer for your special moments. Browse portfolios, compare prices, and book with confidence.",
+    category: ["Marketplace", "Photography", "Booking"],
+    status: "Live",
+    link: "https://snapevent.in/",
+    github: "#",
+    color: "from-blue-500 to-indigo-600"
+  },
+  {
+    name: "OmniTrix",
+    tagline: "IoT blockchain platform",
+    icon: "🔗",
+    description: "The on-chain brain of the real world. Where IoT meets intelligence to make supply chains self-driving with AI agents and blockchain verification.",
+    category: ["IoT", "Blockchain", "AI"],
+    status: "Live",
+    link: "https://www.tryomnitrix.com/",
+    github: "#",
+    color: "from-green-500 to-emerald-600"
+  },
+  {
+    name: "BlueBeetle",
+    tagline: "AI trading platform",
+    icon: "🤖",
+    description: "Agentic intelligence for markets that never sleep. The living co-pilot for traders and funds with AI-powered market analysis and risk management.",
+    category: ["AI", "Trading", "Finance"],
+    status: "Live",
+    link: "https://www.bluebeetle.online/",
+    github: "#",
+    color: "from-cyan-500 to-blue-600"
   }
 ];
 
