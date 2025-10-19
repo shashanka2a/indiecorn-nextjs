@@ -10,7 +10,7 @@ const projects = [
     category: ["Campus", "Social", "Marketplace"],
     status: "Live",
     link: "https://www.kampus.fun/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-blue-500 to-purple-600"
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     category: ["SaaS", "Startup", "Tools"],
     status: "Beta Launch",
     link: "https://www.markit.one/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-green-500 to-teal-600"
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     category: ["Events", "AI", "Talent"],
     status: "Coming October",
     link: "https://www.hackr.plus/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-purple-500 to-pink-600"
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     category: ["Fintech", "Payments", "Crypto"],
     status: "Coming November",
     link: "https://www.payd.plus/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-cyan-500 to-blue-600"
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     category: ["Dev Tools", "Design", "SaaS"],
     status: "Coming December",
     link: "https://www.layr.plus/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-orange-500 to-red-600"
   },
   {
@@ -65,7 +65,7 @@ const projects = [
     category: ["Restaurant", "SaaS", "QR"],
     status: "Live",
     link: "https://www.menupro.biz/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-orange-500 to-yellow-600"
   },
   {
@@ -76,7 +76,7 @@ const projects = [
     category: ["AI", "Freelancer", "Auto"],
     status: "Live",
     link: "https://opengig.net/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-purple-500 to-pink-600"
   },
   {
@@ -87,7 +87,7 @@ const projects = [
     category: ["Hospitality", "Property", "SaaS"],
     status: "Live",
     link: "https://www.staylinq.co/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-blue-500 to-cyan-600"
   },
   {
@@ -98,7 +98,7 @@ const projects = [
     category: ["Dev Agency", "Web", "Mobile"],
     status: "Live",
     link: "https://www.productjoy.co/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-pink-500 to-purple-600"
   },
   {
@@ -109,7 +109,7 @@ const projects = [
     category: ["Web3", "NFT", "Creator"],
     status: "Live",
     link: "https://www.momint.club/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-indigo-500 to-purple-600"
   },
   {
@@ -120,7 +120,7 @@ const projects = [
     category: ["AI Film", "Creative", "Story"],
     status: "Live",
     link: "https://www.whatifstudio.art/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-orange-500 to-red-600"
   },
   {
@@ -131,7 +131,7 @@ const projects = [
     category: ["AI", "Creative", "Content"],
     status: "Live",
     link: "https://www.tryaura.art/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-purple-500 to-pink-600"
   },
   {
@@ -142,7 +142,7 @@ const projects = [
     category: ["Marketplace", "Photography", "Booking"],
     status: "Live",
     link: "https://snapevent.in/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-blue-500 to-indigo-600"
   },
   {
@@ -153,7 +153,7 @@ const projects = [
     category: ["IoT", "Blockchain", "AI"],
     status: "Live",
     link: "https://www.tryomnitrix.com/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-green-500 to-emerald-600"
   },
   {
@@ -164,7 +164,7 @@ const projects = [
     category: ["AI", "Trading", "Finance"],
     status: "Live",
     link: "https://www.bluebeetle.online/",
-    github: "#",
+    github: "https://github.com/shashanka2a",
     color: "from-cyan-500 to-blue-600"
   }
 ];
