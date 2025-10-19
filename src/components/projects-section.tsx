@@ -246,7 +246,7 @@ export function ProjectsSection() {
                   <Button 
                     variant="outline" 
                     size="sm" 
-                    className="border-gray-600 text-gray-300 hover:bg-gray-800"
+                    className="border-gray-600 text-black hover:bg-gray-800 hover:text-white"
                     asChild
                   >
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
@@ -259,17 +259,6 @@ export function ProjectsSection() {
           ))}
         </div>
         
-        {/* View all projects CTA */}
-        <div className="text-center mt-16">
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-green-400 text-green-400 hover:bg-green-400 hover:text-black font-mono"
-          >
-            View All Projects
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
-        </div>
       </div>
     </section>
   );
