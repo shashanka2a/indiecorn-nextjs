@@ -58,13 +58,13 @@ const projects = [
     color: "from-orange-500 to-red-600"
   },
   {
-    name: "MenuPRO",
+    name: "MenuOS",
     tagline: "Digital menu platform",
     icon: "🍽️",
     description: "Digital menu platform for restaurants. Scan, order, serve — no tablets, no delays. QR code ordering.",
     category: ["Restaurant", "SaaS", "QR"],
     status: "Live",
-    link: "https://www.menupro.biz/",
+    link: "https://www.menuos.app/",
     github: "https://github.com/shashanka2a",
     color: "from-orange-500 to-yellow-600"
   },
