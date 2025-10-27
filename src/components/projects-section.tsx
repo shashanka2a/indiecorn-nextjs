@@ -19,7 +19,7 @@ const projects = [
     icon: "⚡",
     description: "Simplify forms, QR codes, and hiring. Essential startup tools to launch faster and scale smarter.",
     category: ["SaaS", "Startup", "Tools"],
-    status: "Beta Launch",
+    status: "Launching Soon",
     link: "https://www.markit.one/",
     github: "https://github.com/shashanka2a",
     color: "from-green-500 to-teal-600"
@@ -30,7 +30,7 @@ const projects = [
     icon: "🏆",
     description: "Host smarter, judge faster, hire better. Complete hackathon platform with AI-powered management and talent discovery.",
     category: ["Events", "AI", "Talent"],
-    status: "Coming October",
+    status: "Launching Soon",
     link: "https://www.hackr.plus/",
     github: "https://github.com/shashanka2a",
     color: "from-purple-500 to-pink-600"
@@ -41,7 +41,7 @@ const projects = [
     icon: "💳",
     description: "Your payments, simplified. Business invoices, creator tips, global transfers — all unified with crypto and fiat support.",
     category: ["Fintech", "Payments", "Crypto"],
-    status: "Coming November",
+    status: "Launching Soon",
     link: "https://www.payd.plus/",
     github: "https://github.com/shashanka2a",
     color: "from-cyan-500 to-blue-600"
@@ -52,7 +52,7 @@ const projects = [
     icon: "🤖",
     description: "All the layers you need to build. Create, design, and deploy from concept to completion.",
     category: ["Dev Tools", "Design", "SaaS"],
-    status: "Coming December",
+    status: "Launching Soon",
     link: "https://www.layr.plus/",
     github: "https://github.com/shashanka2a",
     color: "from-orange-500 to-red-600"
@@ -135,13 +135,13 @@ const projects = [
     color: "from-purple-500 to-pink-600"
   },
   {
-    name: "SnapEvent",
+    name: "ShaadiVerse",
     tagline: "Photographer marketplace",
     icon: "📸",
     description: "Capture life's best moments. Find the perfect photographer for your special moments. Browse portfolios and book.",
     category: ["Marketplace", "Photography", "Booking"],
     status: "Live",
-    link: "https://snapevent.in/",
+    link: "https://shaadiverse.app/",
     github: "https://github.com/shashanka2a",
     color: "from-blue-500 to-indigo-600"
   },
@@ -203,7 +203,8 @@ export function ProjectsSection() {
                     <p className="text-green-400 font-mono text-sm mb-3">{project.tagline}</p>
                     <span className={`inline-block px-3 py-1 rounded-full text-sm font-mono ${
                       project.status === 'Live' ? 'bg-green-400/20 text-green-400' :
-                      project.status === 'Beta' ? 'bg-yellow-400/20 text-yellow-400' :
+                      project.status === 'Beta Launch' ? 'bg-yellow-400/20 text-yellow-400' :
+                      project.status === 'Launching Soon' ? 'bg-blue-400/20 text-blue-400' :
                       'bg-gray-600/20 text-gray-400'
                     }`}>
                       {project.status}
